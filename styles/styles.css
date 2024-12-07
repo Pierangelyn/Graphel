@@ -1,0 +1,380 @@
+* {
+   margin: 0;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+   margin: 0;
+   padding: 0;
+   width: 100%;
+}
+
+header {
+   display: flex;
+   flex-direction: column;
+   height: 600px;
+}
+
+#hed {
+   box-shadow: none;
+   align-items: center;
+   justify-content: space-around;
+   display: flex;
+   height: 90px;
+}
+
+div {
+   background-color: rgb(39, 39, 39);
+   box-shadow: 0 6px rgba(0, 98, 211, 0.719);
+   justify-content: space-around;
+   display: flex;
+   height: 100px;
+}
+
+h2 {
+   font-size: 30px;
+   display: flex;
+   align-items: center;
+   margin: 0;
+   color: white;
+}
+
+a {
+   text-decoration: none;
+   color: white;
+}
+
+a:hover {
+   color: rgba(36, 164, 250, 0.938);
+}
+
+nav {
+   display: flex;
+   width: 450px;
+   justify-content: space-around;
+   align-items: center;
+}
+
+#img {
+   box-shadow: none;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   flex-direction: column;
+   background-image: url(../assets/images/cabecera.jpg);
+   margin-top: 5px;
+   height: 400px;
+   background-position: center;
+   background-size: cover;
+}
+
+span {
+   margin-left: 10px;
+   color: rgba(36, 164, 250, 0.938);
+}
+
+h1 {
+   font-size: 50px;
+   color: white;
+   margin: 100px 0 15px;
+}
+
+p {
+   width: 800px;
+   margin: 0;
+   color: white;
+   text-align: center;
+}
+
+h3 {
+   margin: 0;
+   color: white;
+}
+
+input {
+   width: 200px;
+   background-color: white;
+   color: gray;
+   display: flex;
+   align-items: center;
+   padding: 5px;
+}
+
+#mol {
+   height: 28px;
+   display: flex;
+   align-items: center;
+   width: 90px;
+   justify-content: center;
+   background-color: rgb(255, 64, 0);
+   color: white;
+   margin-left: 5px;
+}
+
+#sub {
+   height: 70px;
+   box-shadow: none;
+   align-items: center;
+}
+
+section {
+   height: 350px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   background-color: white;
+}
+
+#prime {
+   width: 320px;
+   text-align: center;
+   box-shadow: none;
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 280px;
+}
+
+img {
+   height: 140px;
+   width: 130px;
+}
+
+#segu {
+   height: 280px;
+   width: 320px;
+   text-align: center;
+   box-shadow: none;
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+#terce {
+   height: 280px;
+   width: 320px;
+   text-align: center;
+   align-items: center;
+   box-shadow: none;
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+}
+
+#tex {
+   width: 340px;
+   color: black;
+}
+
+footer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 90px;
+   background-color: rgba(38, 162, 245, 0.945);
+}
+
+small {
+   color: white;
+}
+
+#heda {
+   align-items: center;
+   box-shadow: none;
+   margin-top: 5px;
+   height: 85px;
+}
+
+.base {
+   height: 190px;
+}
+
+.texti {
+   height: 530px;
+   align-items: normal;
+   justify-content: space-evenly;
+   display: flex;
+}
+
+.parte {
+   box-shadow: none;
+   background-color: white;
+   flex-direction: column;
+   display: flex;
+   height: 500px;
+}
+
+.titu {
+   margin-top: 15px;
+   color: black;
+}
+
+.tex {
+   text-align: left;
+   color: black;
+   width: 840px;
+}
+
+.text {
+   text-align: left;
+   padding: 20px;
+   background-color: rgba(44, 40, 62, 0.921);
+}
+
+.part {
+   display: flex;
+   justify-content: space-around;
+   background-color: rgba(44, 40, 62, 0.921);
+   margin-top: 25px;
+   box-shadow: none;
+   flex-direction: column;
+   height: 200px;
+   width: 350px;
+   padding: 20px;
+}
+
+#parra {
+   text-align: left;
+   width: 350px;
+}
+
+.imagen {
+   width: 840px;
+   height: 200px;
+}
+
+.modo {
+   background-color: white;
+   justify-content: space-between;
+   width: 1300px;
+   height: 530px;
+   display: flex;
+   box-shadow: none;
+}
+
+.diseño {
+   box-shadow: none;
+   background-color: rgba(207, 207, 207, 0.789);
+   display: flex;
+   justify-content: space-evenly;
+   flex-direction: column;
+   padding: 20px;
+   height: 250px;
+   margin-top: 5px;
+
+}
+
+.pre {
+   color: black;
+   display: flex;
+}
+
+.pajin {
+   height: 800px;
+}
+
+.texx {
+   color: black;
+   text-align: left;
+}
+
+.modos {
+   background-color: white;
+   justify-content: space-between;
+   width: 1300px;
+   height: 750px;
+   display: flex;
+   box-shadow: none;
+}
+
+.partes {
+   box-shadow: none;
+   background-color: white;
+   flex-direction: column;
+   display: flex;
+   height: 750px;
+   justify-content: start;
+}
+
+.tituu {
+   color: black;
+   margin: 0 0 10px 0;
+}
+
+.parrt {
+   display: flex;
+   background-color: rgba(44, 40, 62, 0.921);
+   box-shadow: none;
+   flex-direction: column;
+   justify-content: space-around;
+   height: 200px;
+   width: 350px;
+   padding: 20px;
+}
+
+.contac {
+   flex-direction: column;
+   height: 540px;
+   background-color: white;
+   box-shadow: none;
+   width: 840px;
+   justify-content: start;
+}
+
+.sobre {
+   margin-top: 10px;
+   color: black;
+}
+
+.ingre { 
+   padding: 0 5px;
+   width: 838px;
+   height: 35px;
+}
+
+.hacer {
+   box-shadow: none;
+   flex-direction: column;
+   background-color: white;
+   height: 595px;
+   justify-content: start;
+}
+
+.mapa {
+   width: 390px;
+   height: 330px;
+   margin-top: 10px;
+}
+
+#mole {
+   height: 35px;
+   display: flex;
+   align-items: center;
+   width: 90px;
+   justify-content: center;
+   background-color: rgb(255, 64, 0);
+   color: white;
+   margin-top: 10px;
+   width: 835px;
+}
+.pieza{
+   height: 650px;
+}
+.modoss{
+   justify-content: space-between;
+   height: 600px;
+   background-color: white;
+   box-shadow: none;
+   width: 1300px;
+}
+.partess{
+   flex-direction: column;
+   background-color: white;
+   box-shadow: none;
+   height: 590px;
+}
+textarea{
+   height: 200px;
+}
